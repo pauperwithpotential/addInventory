@@ -4,14 +4,13 @@ def displayInventory(inventory):
     print('Inventory:')
     item_total = 0
     for k, v in inventory.items():
-        print(str(v) + ' ' + k)
+        print(str(v) + ' ' + k)         #
         item_total += v
     print('Total number of items: ' + str(item_total) + '\n')
 
 displayInventory(stuff)
 
 def addToInventory(inventory, addedItems):
-    #Enter code here
     for i in addedItems:
         if i in inventory.keys():       # if i can be found in inventory
             inventory[i] += 1           # add +1 to count
