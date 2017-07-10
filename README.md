@@ -1,4 +1,4 @@
-# addInventory
+# addInventory.py
 ATBS Ch5 - Dictionaries and Structuring Data
 
 Fantasy Game Inventory
