@@ -1,4 +1,4 @@
-# addInventory.py
+# Fantasy Game Inventory
 ATBS Ch5 - Dictionaries and Structuring Data
 
 Fantasy Game Inventory
@@ -18,7 +18,7 @@ Write a function named displayInventory() that would take any possible “invent
 Hint: You can use a for loop to loop through all the keys in a dictionary.
 
 
-# inventory.py
+# addInventory.py
     stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
 
     def displayInventory(inventory):
